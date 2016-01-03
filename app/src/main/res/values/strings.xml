@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HeadFirst</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="chooser">Send messages</string>
+    <string name="title_activity_receive__intent">Receive_Intent</string>
+    <string name="title_activity_hf_2">Head First 2</string>
+    <string name="hf_3_label">Head FIrst chương 3</string>
+    <string name="hf_3_description">2 loại Intent: explicit và implicit intent</string>
+    <string name="send">Send</string>
+    <string name="no_demos">No Demo</string>
+    <string name="title_activity_hf_4">HF_4</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="hf_4_label">Head First chương 4</string>
+    <string name="hf_4_description">Stopwatch: Activity của app, Handler + Runnable để schedule</string>
+    <string name="title_activity_hf_5">HF_5</string>
+    <string name="title_activity_relatetive_layout">RelatetiveLayout</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+    <string name="title_activity_grid_layout">GridLayout</string>
+    <string name="hf_5_label">Head First Chương 5</string>
+    <string name="hf_5_description">3 loại layout, các loại GUI</string>
+    <string name="title_activity_top_level">TopLevelActivity</string>
+    <string name="starbuzz_logo">Starbuzz Logo</string>
+    <string name="title_activity_drink_category">DrinkCategoryActivity</string>
+    <string name="hf_6_label">Head First chương 6</string>
+    <string name="hf_6_description">tạo listview listener</string>
+    <string name="title_activity_drink">DrinkActivity</string>
+    <string name="title_activity_bg_imagebutton">Bg_imagebutton</string>
+    <string name="tiengtaybannha">Huynh duc Thanh Phong</string>
+    <string name="AST0_label">Android_studio_0</string>
+    <string name="AST0_description">Tạo background, thay đổi ngôn ngữ</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hf_7_label">Head First chương 7</string>
+    <string name="hf_7_description">Tạo fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>

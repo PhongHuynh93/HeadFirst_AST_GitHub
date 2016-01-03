@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phong.headfirst" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HF3.HF_2"
+            android:label="@string/title_activity_hf_2" >
+        </activity>
+        <activity
+            android:name=".HF3.Receive_Intent"
+            android:label="@string/title_activity_receive__intent" >
+        </activity>
+        <activity
+            android:name=".HF4.HF_4"
+            android:label="@string/title_activity_hf_4" >
+        </activity>
+        <activity
+            android:name=".HF5.HF_5"
+            android:label="@string/title_activity_hf_5" >
+        </activity>
+        <activity
+            android:name=".HF5.RelatetiveLayout"
+            android:label="@string/title_activity_relatetive_layout" >
+        </activity>
+        <activity
+            android:name=".HF5.LinearLayout"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".HF5.GridLayout"
+            android:label="@string/title_activity_grid_layout" >
+        </activity>
+        <activity
+            android:name=".HF6.TopLevelActivity"
+            android:label="@string/title_activity_top_level" >
+        </activity>
+        <activity
+            android:name=".HF6.DrinkCategoryActivity"
+            android:label="@string/title_activity_drink_category" >
+        </activity>
+        <activity
+            android:name=".HF6.DrinkActivity"
+            android:label="@string/title_activity_drink" >
+        </activity>
+        <activity
+            android:name=".AST0.Bg_imagebutton"
+            android:label="@string/title_activity_bg_imagebutton" >
+        </activity>
+        <activity
+            android:name=".HF7.Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".HF7.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+    </application>
+
+</manifest>
