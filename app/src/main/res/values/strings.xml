@@ -39,5 +39,19 @@
     <string name="hf_7_label">Head First chương 7</string>
     <string name="hf_7_description">Tạo fragment</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_lay_image_tu_google">LayImageTuGoogle</string>
+    <string name="Github_label">Github 0</string>
+    <string name="Github_description">Lấy image từ Google</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="hf_8_label">Head First chương 8</string>
+    <string name="hf_8_description">Tạo các fragment lòng nhau</string>
+    <string name="title_activity_linear_layout__userinput__toasts">LinearLayout_Userinput_Toasts
+    </string>
+    <string name="AST2_label">Android_studio_2</string>
+    <string name="AST2_description">Tạo LinearLayout + user input + Toast</string>
+    <string name="title_activity_camera_intent">Camera_intent</string>
+    <string name="Github_1_label">Github 1</string>
+    <string name="Github_1_description">Intent camera và lưu ảnh</string>
+    <string name="title_activity_video__intent">Video_Intent</string>
 
 </resources>

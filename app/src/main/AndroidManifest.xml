@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.phong.headfirst" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- sử dụng camera và lưu vào thẻo nhớ -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -67,6 +72,30 @@
         <activity
             android:name=".HF7.DetailActivity"
             android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name=".GitHub0.LayImageTuGoogle"
+            android:label="@string/title_activity_lay_image_tu_google" >
+        </activity>
+        <activity
+            android:name=".HF8.Main3Activity"
+            android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name=".HF8.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name=".AST2.LinearLayout_Userinput_Toasts"
+            android:label="@string/title_activity_linear_layout__userinput__toasts" >
+        </activity>
+        <activity
+            android:name=".GitHub1.Camera_intent"
+            android:label="@string/title_activity_camera_intent" >
+        </activity>
+        <activity
+            android:name=".GitHub2.Video_Intent"
+            android:label="@string/title_activity_video__intent" >
         </activity>
     </application>
 
