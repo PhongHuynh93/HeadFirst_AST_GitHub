@@ -97,6 +97,55 @@
             android:name=".GitHub2.Video_Intent"
             android:label="@string/title_activity_video__intent" >
         </activity>
+        <activity
+            android:name=".GitHub3.Merry_christmas"
+            android:label="@string/title_activity_merry_christmas" >
+        </activity>
+        <activity
+            android:name=".GitHub1.Camera_intent_test"
+            android:label="@string/title_activity_camera_intent_test" >
+        </activity>
+        <activity
+            android:name=".GitHub2.Video_intent_test"
+            android:label="@string/title_activity_video_intent_test" >
+        </activity>
+        <activity
+            android:name=".Github4.Slider_Switch_Button"
+            android:label="@string/title_activity_slider__switch__button" >
+        </activity>
+        <activity
+            android:name=".Github5.Thanh_seek_bar"
+            android:label="@string/title_activity_thanh_seek_bar" >
+        </activity>
+        <activity
+            android:name=".Github4.Slider_Switch_test"
+            android:label="@string/title_activity_slider__switch_test" >
+        </activity>
+        <activity
+            android:name=".GitHub3.Music"
+            android:label="@string/title_activity_music" >
+        </activity>
+        <activity
+            android:name=".HF9.Action_Bar"
+            android:label="@string/title_activity_action__bar" >
+        </activity>
+        <activity
+            android:name=".HF9.OrderActivity"
+            android:label="@string/title_activity_order"
+            android:parentActivityName=".HF9.Action_Bar" >
+        </activity>
+        <activity
+            android:name=".AST3.ListView_ListAdapter"
+            android:label="@string/title_activity_list_view__list_adapter" >
+        </activity>
+        <activity
+            android:name=".HF8.Main3Activity_test"
+            android:label="@string/title_activity_main3_activity_test" >
+        </activity>
+        <activity
+            android:name=".HMK1.Material_Design"
+            android:label="@string/title_activity_material__design" >
+        </activity>
     </application>
 
 </manifest>

@@ -6,7 +6,28 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.phong.headfirst.GitHub2.Video_Intent">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Record"
+        android:onClick="onClickReCord"
+        android:id="@+id/recordButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/playButton"
+        android:onClick="onClickPlay"
+        android:text="Play"/>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoView"
+        android:layout_above="@+id/recordButton"/>
 
 </RelativeLayout>
