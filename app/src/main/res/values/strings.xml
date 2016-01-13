@@ -101,5 +101,8 @@
     <string name="HMK_4_label">HMK_4</string>
     <string name="HMK_4_description">tạo ứng dụng giống như whatsapp</string>
     <string name="title_activity_location_google_test">Location_google_test</string>
+    <string name="title_activity_recycler_view">RecyclerView</string>
+    <string name="HMK_5_label">HMK_5</string>
+    <string name="HMK_5_description">RecyclerView mới trong android L giống listViewAdapter</string>
 
 </resources>

@@ -2,6 +2,7 @@ package com.phong.headfirst;
 
 import android.app.Notification;
 import android.graphics.Camera;
+import android.support.v7.widget.RecyclerView;
 
 import com.phong.headfirst.AST0.Bg_imagebutton;
 import com.phong.headfirst.AST2.LinearLayout_Userinput_Toasts;
@@ -57,5 +58,6 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.HMK_2_label, R.string.HMK_2_description, TextInputLayout.class),
             new DemoDetails(R.string.HMK_3_label, R.string.HMK_3_description, Location_google.class),
             new DemoDetails(R.string.HMK_4_label, R.string.HMK_4_description, WhatsApp.class),
+            new DemoDetails(R.string.HMK_5_label, R.string.HMK_5_description, com.phong.headfirst.HMK5.RecyclerView.class),
     };
 }
