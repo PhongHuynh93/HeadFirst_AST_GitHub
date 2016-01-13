@@ -87,7 +87,19 @@
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    <string name="HMK_1_label">HMKCode</string>
+    <string name="HMK_1_label">HMK_1</string>
     <string name="HMK_1_description">Building Material Design App Using Android Design Support Library and AppCompat Theme</string>
+    <string name="title_activity_test__material__design">Material</string>
+    <string name="title_activity_list_view__list_adapter_test">ListView_ListAdapter_test</string>
+    <string name="title_activity_text_input_layout">TextInputLayout</string>
+    <string name="HMK_2_label">HMK_2</string>
+    <string name="HMK_2_description">TextInputLayout là EditText nhưng hint ko xóa mà nó float</string>
+    <string name="title_activity_location_google">Location_google</string>
+    <string name="HMK_3_label">HMK_3</string>
+    <string name="HMK_3_description">Lấy tọa độ GPS, gợi ý bật 3G lên</string>
+    <string name="title_activity_whats_app">WhatsApp</string>
+    <string name="HMK_4_label">HMK_4</string>
+    <string name="HMK_4_description">tạo ứng dụng giống như whatsapp</string>
+    <string name="title_activity_location_google_test">Location_google_test</string>
 
 </resources>

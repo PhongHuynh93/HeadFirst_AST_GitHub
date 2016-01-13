@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.hmkcode.mongoz.MainActivity" >
 
+	<!-- 3 menu cho navigation -->
     <group android:checkableBehavior="all">
 	    <item
 	        android:id="@+id/navigation_item_1"

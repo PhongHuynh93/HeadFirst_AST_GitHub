@@ -7,11 +7,19 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <!-- quyền location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -145,6 +153,30 @@
         <activity
             android:name=".HMK1.Material_Design"
             android:label="@string/title_activity_material__design" >
+        </activity>
+        <activity
+            android:name=".HMK1.Test_Material_Design"
+            android:label="@string/title_activity_test__material__design" >
+        </activity>
+        <activity
+            android:name=".AST3.ListView_ListAdapter_test"
+            android:label="@string/title_activity_list_view__list_adapter_test" >
+        </activity>
+        <activity
+            android:name=".HMK2.TextInputLayout"
+            android:label="@string/title_activity_text_input_layout" >
+        </activity>
+        <activity
+            android:name=".HMK3.Location_google"
+            android:label="@string/title_activity_location_google" >
+        </activity>
+        <activity
+            android:name=".HMK4.WhatsApp"
+            android:label="@string/title_activity_whats_app" >
+        </activity>
+        <activity
+            android:name=".HMK3.Location_google_test"
+            android:label="@string/title_activity_location_google_test" >
         </activity>
     </application>
 
