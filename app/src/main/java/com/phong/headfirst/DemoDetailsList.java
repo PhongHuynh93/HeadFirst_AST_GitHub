@@ -28,6 +28,8 @@ import com.phong.headfirst.HMK2.TextInputLayout;
 import com.phong.headfirst.HMK3.Location_google;
 import com.phong.headfirst.HMK3.Location_google_test;
 import com.phong.headfirst.HMK4.WhatsApp;
+import com.phong.headfirst.HMK6.SignupSignin;
+import com.phong.headfirst.HMK7.Social_network_signin;
 
 /**
  * Created by huynhducthanhphong on 12/28/15.
@@ -59,5 +61,7 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.HMK_3_label, R.string.HMK_3_description, Location_google.class),
             new DemoDetails(R.string.HMK_4_label, R.string.HMK_4_description, WhatsApp.class),
             new DemoDetails(R.string.HMK_5_label, R.string.HMK_5_description, com.phong.headfirst.HMK5.RecyclerView.class),
+            new DemoDetails(R.string.HMK_6_label, R.string.HMK_6_description, SignupSignin.class),
+            new DemoDetails(R.string.HMK_7_label, R.string.HMK_7_description, Social_network_signin.class),
     };
 }

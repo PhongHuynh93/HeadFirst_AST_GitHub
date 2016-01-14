@@ -182,6 +182,22 @@
             android:name=".HMK5.RecyclerView"
             android:label="@string/title_activity_recycler_view" >
         </activity>
+        <activity
+            android:name=".HMK6.SignupSignin"
+            android:label="@string/title_activity_signup_signin" >
+        </activity>
+        <activity
+            android:name=".HMK6.SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".HMK6.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".HMK7.Social_network_signin"
+            android:label="@string/title_activity_social_network_signin" >
+        </activity>
     </application>
 
 </manifest>

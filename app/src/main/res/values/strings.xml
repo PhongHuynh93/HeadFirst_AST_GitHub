@@ -104,5 +104,13 @@
     <string name="title_activity_recycler_view">RecyclerView</string>
     <string name="HMK_5_label">HMK_5</string>
     <string name="HMK_5_description">RecyclerView mới trong android L giống listViewAdapter</string>
+    <string name="title_activity_signup_signin">SignupSignin</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="HMK_6_label">HMK_6</string>
+    <string name="HMK_6_description">tạo màn hình Sign Up Sign In screen</string>
+    <string name="title_activity_social_network_signin">Social_network_signin</string>
+    <string name="HMK_7_label">HMK_7</string>
+    <string name="HMK_7_description">Tạo 3 màn hình log in cho fb, google plus và twitter</string>
 
 </resources>
