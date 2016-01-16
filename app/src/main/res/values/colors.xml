@@ -11,4 +11,15 @@
   	<color name="my_secondary_text">#ffffff</color>
   	<color name="my_icons">#FFFFFF</color>
   	<color name="my_divider">#B6B6B6</color>
+
+	<color name="photo_placeholder">#ccc</color>
+
+	<color name="theme_primary">#04561A</color>
+	<color name="theme_primary_dark">#04561A</color>
+	<color name="theme_accent">#04561A</color>
+	<color name="ltgray">#ffe0e0e0</color>
+
+	<color name="primary">#9c27b0</color>
+	<color name="primary_dark">#4a148c</color>
+	<color name="accent">#f50057</color>
 </resources>

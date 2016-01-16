@@ -14,6 +14,7 @@ import com.phong.headfirst.GitHub2.Video_Intent;
 import com.phong.headfirst.GitHub3.Merry_christmas;
 import com.phong.headfirst.Github4.Slider_Switch_Button;
 import com.phong.headfirst.Github4.Slider_Switch_test;
+import com.phong.headfirst.Github7.RecyclerViewDemoActivity;
 import com.phong.headfirst.HF3.HF_2;
 import com.phong.headfirst.HF4.HF_4;
 import com.phong.headfirst.HF5.HF_5;
@@ -56,6 +57,7 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.Github_3_label, R.string.Github_3_description, Merry_christmas.class),
             new DemoDetails(R.string.Github_4_label, R.string.Github_4_description, Slider_Switch_Button.class),
             new DemoDetails(R.string.Github_5_label, R.string.Github_5_description, Slider_Switch_Button.class),
+            new DemoDetails(R.string.Github_7_label, R.string.Github_7_description, RecyclerViewDemoActivity.class),
             new DemoDetails(R.string.HMK_1_label, R.string.HMK_1_description, Test_Material_Design.class),
             new DemoDetails(R.string.HMK_2_label, R.string.HMK_2_description, TextInputLayout.class),
             new DemoDetails(R.string.HMK_3_label, R.string.HMK_3_description, Location_google.class),

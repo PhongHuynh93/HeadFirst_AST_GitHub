@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.phong.headfirst" >
+    package="com.phong.headfirst">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
     <!-- sử dụng camera và lưu vào thẻo nhớ -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,14 +17,14 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,173 +33,139 @@
         </activity>
         <activity
             android:name=".HF3.HF_2"
-            android:label="@string/title_activity_hf_2" >
-        </activity>
+            android:label="@string/title_activity_hf_2"></activity>
         <activity
             android:name=".HF3.Receive_Intent"
-            android:label="@string/title_activity_receive__intent" >
-        </activity>
+            android:label="@string/title_activity_receive__intent"></activity>
         <activity
             android:name=".HF4.HF_4"
-            android:label="@string/title_activity_hf_4" >
-        </activity>
+            android:label="@string/title_activity_hf_4"></activity>
         <activity
             android:name=".HF5.HF_5"
-            android:label="@string/title_activity_hf_5" >
-        </activity>
+            android:label="@string/title_activity_hf_5"></activity>
         <activity
             android:name=".HF5.RelatetiveLayout"
-            android:label="@string/title_activity_relatetive_layout" >
-        </activity>
+            android:label="@string/title_activity_relatetive_layout"></activity>
         <activity
             android:name=".HF5.LinearLayout"
-            android:label="@string/title_activity_linear_layout" >
-        </activity>
+            android:label="@string/title_activity_linear_layout"></activity>
         <activity
             android:name=".HF5.GridLayout"
-            android:label="@string/title_activity_grid_layout" >
-        </activity>
+            android:label="@string/title_activity_grid_layout"></activity>
         <activity
             android:name=".HF6.TopLevelActivity"
-            android:label="@string/title_activity_top_level" >
-        </activity>
+            android:label="@string/title_activity_top_level"></activity>
         <activity
             android:name=".HF6.DrinkCategoryActivity"
-            android:label="@string/title_activity_drink_category" >
-        </activity>
+            android:label="@string/title_activity_drink_category"></activity>
         <activity
             android:name=".HF6.DrinkActivity"
-            android:label="@string/title_activity_drink" >
-        </activity>
+            android:label="@string/title_activity_drink"></activity>
         <activity
             android:name=".AST0.Bg_imagebutton"
-            android:label="@string/title_activity_bg_imagebutton" >
-        </activity>
+            android:label="@string/title_activity_bg_imagebutton"></activity>
         <activity
             android:name=".HF7.Main2Activity"
-            android:label="@string/title_activity_main2" >
-        </activity>
+            android:label="@string/title_activity_main2"></activity>
         <activity
             android:name=".HF7.DetailActivity"
-            android:label="@string/title_activity_detail" >
-        </activity>
+            android:label="@string/title_activity_detail"></activity>
         <activity
             android:name=".GitHub0.LayImageTuGoogle"
-            android:label="@string/title_activity_lay_image_tu_google" >
-        </activity>
+            android:label="@string/title_activity_lay_image_tu_google"></activity>
         <activity
             android:name=".HF8.Main3Activity"
-            android:label="@string/title_activity_main3" >
-        </activity>
+            android:label="@string/title_activity_main3"></activity>
         <activity
             android:name=".HF8.DetailActivity"
-            android:label="@string/title_activity_detail" >
-        </activity>
+            android:label="@string/title_activity_detail"></activity>
         <activity
             android:name=".AST2.LinearLayout_Userinput_Toasts"
-            android:label="@string/title_activity_linear_layout__userinput__toasts" >
-        </activity>
+            android:label="@string/title_activity_linear_layout__userinput__toasts"></activity>
         <activity
             android:name=".GitHub1.Camera_intent"
-            android:label="@string/title_activity_camera_intent" >
-        </activity>
+            android:label="@string/title_activity_camera_intent"></activity>
         <activity
             android:name=".GitHub2.Video_Intent"
-            android:label="@string/title_activity_video__intent" >
-        </activity>
+            android:label="@string/title_activity_video__intent"></activity>
         <activity
             android:name=".GitHub3.Merry_christmas"
-            android:label="@string/title_activity_merry_christmas" >
-        </activity>
+            android:label="@string/title_activity_merry_christmas"></activity>
         <activity
             android:name=".GitHub1.Camera_intent_test"
-            android:label="@string/title_activity_camera_intent_test" >
-        </activity>
+            android:label="@string/title_activity_camera_intent_test"></activity>
         <activity
             android:name=".GitHub2.Video_intent_test"
-            android:label="@string/title_activity_video_intent_test" >
-        </activity>
+            android:label="@string/title_activity_video_intent_test"></activity>
         <activity
             android:name=".Github4.Slider_Switch_Button"
-            android:label="@string/title_activity_slider__switch__button" >
-        </activity>
+            android:label="@string/title_activity_slider__switch__button"></activity>
         <activity
             android:name=".Github5.Thanh_seek_bar"
-            android:label="@string/title_activity_thanh_seek_bar" >
-        </activity>
+            android:label="@string/title_activity_thanh_seek_bar"></activity>
         <activity
             android:name=".Github4.Slider_Switch_test"
-            android:label="@string/title_activity_slider__switch_test" >
-        </activity>
+            android:label="@string/title_activity_slider__switch_test"></activity>
         <activity
             android:name=".GitHub3.Music"
-            android:label="@string/title_activity_music" >
-        </activity>
+            android:label="@string/title_activity_music"></activity>
         <activity
             android:name=".HF9.Action_Bar"
-            android:label="@string/title_activity_action__bar" >
-        </activity>
+            android:label="@string/title_activity_action__bar"></activity>
         <activity
             android:name=".HF9.OrderActivity"
             android:label="@string/title_activity_order"
-            android:parentActivityName=".HF9.Action_Bar" >
-        </activity>
+            android:parentActivityName=".HF9.Action_Bar"></activity>
         <activity
             android:name=".AST3.ListView_ListAdapter"
-            android:label="@string/title_activity_list_view__list_adapter" >
-        </activity>
+            android:label="@string/title_activity_list_view__list_adapter"></activity>
         <activity
             android:name=".HF8.Main3Activity_test"
-            android:label="@string/title_activity_main3_activity_test" >
-        </activity>
+            android:label="@string/title_activity_main3_activity_test"></activity>
         <activity
             android:name=".HMK1.Material_Design"
-            android:label="@string/title_activity_material__design" >
-        </activity>
+            android:label="@string/title_activity_material__design"></activity>
         <activity
             android:name=".HMK1.Test_Material_Design"
-            android:label="@string/title_activity_test__material__design" >
-        </activity>
+            android:label="@string/title_activity_test__material__design"></activity>
         <activity
             android:name=".AST3.ListView_ListAdapter_test"
-            android:label="@string/title_activity_list_view__list_adapter_test" >
-        </activity>
+            android:label="@string/title_activity_list_view__list_adapter_test"></activity>
         <activity
             android:name=".HMK2.TextInputLayout"
-            android:label="@string/title_activity_text_input_layout" >
-        </activity>
+            android:label="@string/title_activity_text_input_layout"></activity>
         <activity
             android:name=".HMK3.Location_google"
-            android:label="@string/title_activity_location_google" >
-        </activity>
+            android:label="@string/title_activity_location_google"></activity>
         <activity
             android:name=".HMK4.WhatsApp"
-            android:label="@string/title_activity_whats_app" >
-        </activity>
+            android:label="@string/title_activity_whats_app"></activity>
         <activity
             android:name=".HMK3.Location_google_test"
-            android:label="@string/title_activity_location_google_test" >
-        </activity>
+            android:label="@string/title_activity_location_google_test"></activity>
         <activity
             android:name=".HMK5.RecyclerView"
-            android:label="@string/title_activity_recycler_view" >
-        </activity>
+            android:label="@string/title_activity_recycler_view"></activity>
         <activity
             android:name=".HMK6.SignupSignin"
-            android:label="@string/title_activity_signup_signin" >
-        </activity>
+            android:label="@string/title_activity_signup_signin"></activity>
         <activity
             android:name=".HMK6.SignInActivity"
-            android:label="@string/title_activity_sign_in" >
-        </activity>
+            android:label="@string/title_activity_sign_in"></activity>
         <activity
             android:name=".HMK6.SignUpActivity"
-            android:label="@string/title_activity_sign_up" >
-        </activity>
+            android:label="@string/title_activity_sign_up"></activity>
         <activity
             android:name=".HMK7.Social_network_signin"
-            android:label="@string/title_activity_social_network_signin" >
-        </activity>
+            android:label="@string/title_activity_social_network_signin"></activity>
+        <activity
+            android:name=".Github7.RecyclerViewDemoActivity"
+            android:label="@string/title_activity_recycler_view_demo"></activity>
+        <activity
+            android:name=".Github7.CardViewDemoActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+
     </application>
 
 </manifest>

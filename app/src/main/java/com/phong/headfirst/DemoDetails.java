@@ -9,9 +9,9 @@ public class DemoDetails {
 
     public final int titleId;
     public final int descriptionId;
-    public final Class<? extends AppCompatActivity> activityClass;
+    public final Class<?> activityClass;
 
-    public DemoDetails(int titleId, int descriptionId, Class<? extends AppCompatActivity> activityClass) {
+    public DemoDetails(int titleId, int descriptionId, Class<?> activityClass) {
         this.titleId = titleId;
         this.descriptionId = descriptionId;
         this.activityClass = activityClass;

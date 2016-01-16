@@ -34,7 +34,7 @@
     <string name="AST0_description">Tạo background, thay đổi ngôn ngữ</string>
     <string name="title_activity_main2">Main2Activity</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hf_7_label">Head First chương 7</string>
     <string name="hf_7_description">Tạo fragment</string>
@@ -112,5 +112,22 @@
     <string name="title_activity_social_network_signin">Social_network_signin</string>
     <string name="HMK_7_label">HMK_7</string>
     <string name="HMK_7_description">Tạo 3 màn hình log in cho fb, google plus và twitter</string>
+    <string name="title_activity_article_list">ArticleListActivity</string>
+    <string name="Github_6_label">Github 6</string>
+    <string name="Github_6_description">Down tài liệu trên mạng + thiết kế material</string>
+    <string name="title_activity_recycler_view_demo">RecyclerViewDemoActivity</string>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_press_elevation">4dp</dimen>
+
+    <string name="action_add">Add</string>
+    <string name="action_remove">Remove</string>
+    <string name="selected_count">%1$s selected</string>
+    <string name="Github_7_label">Github 7</string>
+    <string name="Github_7_description">Selecting Items of a RecyclerView using StateListDrawables</string>
+    <string name="title_activity_main4">Main4Activity</string>
 
 </resources>
