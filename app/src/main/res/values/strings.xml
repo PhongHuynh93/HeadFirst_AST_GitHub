@@ -159,5 +159,7 @@
     <string name="Github_16_description">Make MenuOption</string>
     <string name="Github_17_label">Github 17</string>
     <string name="Github_17_description">Popup menu when click button</string>
+    <string name="Github_18_label">Github 18</string>
+    <string name="Github_18_description">Long press, Short press</string>
 
 </resources>
