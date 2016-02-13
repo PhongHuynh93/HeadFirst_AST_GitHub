@@ -168,7 +168,21 @@
         <activity
             android:name=".Github8.Main4Activity"
             android:label="@string/title_activity_main4"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Github9.SharedPreference"
+            android:label="@string/title_activity_shared_preference"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Github10.Main10Activity" />
+        <activity android:name=".Github11.Main11Activity" />
+        <activity android:name=".Github12.Main12Activity" />
+        <activity android:name=".Github13.Main13Activity" />
+        <activity android:name=".Github14.Main14Activity" />
+        <activity android:name=".Github15.Main15Activity" />
+
+        <activity android:name=".Github16.Main16Activity" />
+
+        <activity android:name=".Github17.Main17Activity"></activity>
     </application>
 
 </manifest>

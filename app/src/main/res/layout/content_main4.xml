@@ -12,6 +12,6 @@
     tools:context="com.phong.headfirst.Github8.Main4Activity"
     tools:showIn="@layout/activity_main4">
 
-
+\
 
 </RelativeLayout>

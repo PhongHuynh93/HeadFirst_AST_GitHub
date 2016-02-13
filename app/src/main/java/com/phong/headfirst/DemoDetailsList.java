@@ -12,6 +12,13 @@ import com.phong.headfirst.GitHub0.LayImageTuGoogle;
 import com.phong.headfirst.GitHub1.Camera_intent;
 import com.phong.headfirst.GitHub2.Video_Intent;
 import com.phong.headfirst.GitHub3.Merry_christmas;
+import com.phong.headfirst.Github11.Main11Activity;
+import com.phong.headfirst.Github12.Main12Activity;
+import com.phong.headfirst.Github13.Main13Activity;
+import com.phong.headfirst.Github14.Main14Activity;
+import com.phong.headfirst.Github15.Main15Activity;
+import com.phong.headfirst.Github16.Main16Activity;
+import com.phong.headfirst.Github17.Main17Activity;
 import com.phong.headfirst.Github4.Slider_Switch_Button;
 import com.phong.headfirst.Github4.Slider_Switch_test;
 import com.phong.headfirst.Github7.RecyclerViewDemoActivity;
@@ -58,6 +65,13 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.Github_4_label, R.string.Github_4_description, Slider_Switch_Button.class),
             new DemoDetails(R.string.Github_5_label, R.string.Github_5_description, Slider_Switch_Button.class),
             new DemoDetails(R.string.Github_7_label, R.string.Github_7_description, RecyclerViewDemoActivity.class),
+            new DemoDetails(R.string.Github_11_label, R.string.Github_11_description, Main11Activity.class),
+            new DemoDetails(R.string.Github_12_label, R.string.Github_12_description, Main12Activity.class),
+            new DemoDetails(R.string.Github_13_label, R.string.Github_13_description, Main13Activity.class),
+            new DemoDetails(R.string.Github_14_label, R.string.Github_14_description, Main14Activity.class),
+            new DemoDetails(R.string.Github_15_label, R.string.Github_15_description, Main15Activity.class),
+            new DemoDetails(R.string.Github_16_label, R.string.Github_16_description, Main16Activity.class),
+            new DemoDetails(R.string.Github_17_label, R.string.Github_17_description, Main17Activity.class),
             new DemoDetails(R.string.HMK_1_label, R.string.HMK_1_description, Test_Material_Design.class),
             new DemoDetails(R.string.HMK_2_label, R.string.HMK_2_description, TextInputLayout.class),
             new DemoDetails(R.string.HMK_3_label, R.string.HMK_3_description, Location_google.class),

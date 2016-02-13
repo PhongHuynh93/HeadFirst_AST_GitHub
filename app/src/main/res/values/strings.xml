@@ -129,5 +129,35 @@
     <string name="Github_7_label">Github 7</string>
     <string name="Github_7_description">Selecting Items of a RecyclerView using StateListDrawables</string>
     <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_shared_preference">SharedPreference</string>
+
+    <!-- Github 10 -->
+    <string name="toggle_turn_on">Turn On</string>
+    <string name="toggle_turn_off">Turn Off</string>
+    <string name="btn_display">Display</string>
+    <string name="Github_10_label">Github 10</string>
+    <string name="Github_10_description">Tạo toggleButton</string>
+
+    <!-- Github 11 -->
+    <string name="example_edittext">Example showing EditText</string>
+    <string name="show_the_text">Show the Text</string>
+    <string name="enter_text">text changes</string>
+    <string name="Github_11_label">Github 11</string>
+    <string name="Github_11_description">EditText</string>
+    <string name="Github_12_label">Github 12</string>
+    <string name="Github_12_description">AutoCompleteView</string>
+    <string name="Github_13_label">Github 13</string>
+    <string name="Github_13_description">Dynamic Autocomplete TextView</string>
+    <string name="Github_14_label">Github 14</string>
+    <string name="Github_14_description">Spinner</string>
+    <string name="Github_15_label">Github 15</string>
+    <string name="Github_15_description">RadioButton</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="yellow_string">Yellow</string>
+    <string name="Github_16_label">Github 16</string>
+    <string name="Github_16_description">Make MenuOption</string>
+    <string name="Github_17_label">Github 17</string>
+    <string name="Github_17_description">Popup menu when click button</string>
 
 </resources>
