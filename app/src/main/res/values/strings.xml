@@ -161,5 +161,7 @@
     <string name="Github_17_description">Popup menu when click button</string>
     <string name="Github_18_label">Github 18</string>
     <string name="Github_18_description">Long press, Short press</string>
+    <string name="Github_19_label">Github 19</string>
+    <string name="Github_19_description">Drag and Drop</string>
 
 </resources>
