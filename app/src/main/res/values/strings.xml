@@ -166,5 +166,41 @@
     <string name="button_new_activity">Open new Activity</string>
     <string name="Github_20_label">Github 20</string>
     <string name="Github_20_description">Intent</string>
+    <string name="title_activity_main21_activity_second">Main21ActivitySecond</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Github_22_label">Github 22</string>
+    <string name="Github_22_description">ListView entries string</string>
+    <string name="Github_23_label">Github 23</string>
+    <string name="Github_23_description">ListView Adapter</string>
 
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hoc56dv 7key</item>
+    </string-array>
 </resources>
