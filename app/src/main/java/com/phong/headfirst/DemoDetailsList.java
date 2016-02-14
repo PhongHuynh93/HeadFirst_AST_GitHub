@@ -21,6 +21,7 @@ import com.phong.headfirst.Github16.Main16Activity;
 import com.phong.headfirst.Github17.Main17Activity;
 import com.phong.headfirst.Github18.Main18Activity;
 import com.phong.headfirst.Github19.Main19Activity;
+import com.phong.headfirst.Github20.Main20Activity;
 import com.phong.headfirst.Github4.Slider_Switch_Button;
 import com.phong.headfirst.Github4.Slider_Switch_test;
 import com.phong.headfirst.Github7.RecyclerViewDemoActivity;
@@ -76,6 +77,7 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.Github_17_label, R.string.Github_17_description, Main17Activity.class),
             new DemoDetails(R.string.Github_18_label, R.string.Github_18_description, Main18Activity.class),
             new DemoDetails(R.string.Github_19_label, R.string.Github_19_description, Main19Activity.class),
+            new DemoDetails(R.string.Github_20_label, R.string.Github_20_description, Main20Activity.class),
             new DemoDetails(R.string.HMK_1_label, R.string.HMK_1_description, Test_Material_Design.class),
             new DemoDetails(R.string.HMK_2_label, R.string.HMK_2_description, TextInputLayout.class),
             new DemoDetails(R.string.HMK_3_label, R.string.HMK_3_description, Location_google.class),

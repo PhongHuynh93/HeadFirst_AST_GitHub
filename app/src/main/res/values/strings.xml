@@ -163,5 +163,8 @@
     <string name="Github_18_description">Long press, Short press</string>
     <string name="Github_19_label">Github 19</string>
     <string name="Github_19_description">Drag and Drop</string>
+    <string name="button_new_activity">Open new Activity</string>
+    <string name="Github_20_label">Github 20</string>
+    <string name="Github_20_description">Intent</string>
 
 </resources>

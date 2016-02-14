@@ -182,7 +182,10 @@
         <activity android:name=".Github16.Main16Activity" />
         <activity android:name=".Github17.Main17Activity" />
         <activity android:name=".Github18.Main18Activity" />
-        <activity android:name=".Github19.Main19Activity"></activity>
+        <activity android:name=".Github19.Main19Activity" />
+        <activity android:name=".Github20.Main20Activity" />
+        <activity android:name=".Github20.Main20ActivitySecond" />
+        <activity android:name=".Github21.Main21Activity"></activity>
     </application>
 
 </manifest>
