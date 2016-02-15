@@ -172,6 +172,8 @@
     <string name="Github_22_description">ListView entries string</string>
     <string name="Github_23_label">Github 23</string>
     <string name="Github_23_description">ListView Adapter</string>
+    <string name="Github_24_label">Github 24</string>
+    <string name="Github_24_description">Grid Layout</string>
 
     <string-array name="sports_array">
         <item>Shuttle Badminton</item>
