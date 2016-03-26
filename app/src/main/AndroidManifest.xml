@@ -173,7 +173,6 @@
             android:name=".Github9.SharedPreference"
             android:label="@string/title_activity_shared_preference"
             android:theme="@style/AppTheme"/>
-        <activity android:name=".Github10.Main10Activity"/>
         <activity android:name=".Github11.Main11Activity"/>
         <activity android:name=".Github12.Main12Activity"/>
         <activity android:name=".Github13.Main13Activity"/>
@@ -196,6 +195,10 @@
         <activity android:name=".Github24.Main24Activity"/>
         <activity android:name=".Github25.Main25Activity">
         </activity>
+
+        <activity android:name=".HF11.TopLevelActivity"/>
+        <activity android:name=".HF11.DrinkActivity" />
+        <activity android:name=".HF11.DrinkCategoryActivity" />
     </application>
 
 </manifest>

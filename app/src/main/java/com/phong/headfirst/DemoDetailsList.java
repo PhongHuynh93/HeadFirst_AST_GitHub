@@ -57,11 +57,12 @@ public final class DemoDetailsList {
     public static final DemoDetails[] DEMOS = {
             new DemoDetails(R.string.hf_3_label, R.string.hf_3_description, HF_2.class),
             new DemoDetails(R.string.hf_4_label, R.string.hf_4_description, HF_4.class),
-            new DemoDetails(R.string.hf_5_label, R.string.hf_5_description, HF_5.class),
+            new DemoDetails( R.string.hf_5_label, R.string.hf_5_description, HF_5.class),
             new DemoDetails(R.string.hf_6_label, R.string.hf_6_description, TopLevelActivity.class),
             new DemoDetails(R.string.hf_7_label, R.string.hf_7_description, Main2Activity.class),
             new DemoDetails(R.string.hf_8_label, R.string.hf_8_description, Main3Activity.class),
             new DemoDetails(R.string.hf_9_label, R.string.hf_9_description, Action_Bar.class),
+            new DemoDetails(R.string.hf_11_label, R.string.hf_11_description, com.phong.headfirst.HF11.TopLevelActivity.class),
             new DemoDetails(R.string.AST0_label, R.string.AST0_description, Bg_imagebutton.class),
             new DemoDetails(R.string.AST2_label, R.string.AST2_description, LinearLayout_Userinput_Toasts.class),
             new DemoDetails(R.string.AST3_label, R.string.AST3_description, ListView_ListAdapter_test.class),

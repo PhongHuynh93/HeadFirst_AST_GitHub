@@ -176,6 +176,10 @@
     <string name="Github_24_description">Grid Layout</string>
     <string name="Github_25_label">Github 25</string>
     <string name="Github_25_description">Play music</string>
+    <string name="hf_11_label">Head first chương 11</string>
+    <string name="hf_11_description">Tạo database sql</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Your favorite drinks:</string>
 
     <string-array name="sports_array">
         <item>Shuttle Badminton</item>
