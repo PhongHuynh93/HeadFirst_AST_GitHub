@@ -31,17 +31,7 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // create table
-        db.execSQL("CREATE TABLE DRINK ("
-                + "_id INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + "NAME TEXT, "
-                + "DESCRIPTION TEXT, "
-                + "IMAGE_RESOURCE_ID INTEGER);");
-
-        // insert values in table
-        insertDrink(db, "Latte", "Espresso and steamed milk", R.drawable.latte);
-        insertDrink(db, "Cappuccino", "Espresso, hot milk and steamed-milk foam", R.drawable.cappuccino);
-        insertDrink(db, "Filter", "Our best drip coffee", R.drawable.filter);
+        updateMyDatabase(db, 0, DB_VERSION);
     }
 
     private static void insertDrink(SQLiteDatabase db, String name, String description, int resourceId) {
@@ -54,12 +44,25 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        if (oldVersion == 1) {
-            //Code to run if the database version is 1
-        }
-        if (oldVersion < 3) {
-            //Code to run if the database version is 1 or 2 }
+        updateMyDatabase(db, oldVersion, newVersion);
+    }
 
+    private void updateMyDatabase(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // called when onCreated
+        if (oldVersion < 1) {
+            db.execSQL("CREATE TABLE DRINK (" +
+                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    + "NAME TEXT, "
+                    + "DESCRIPTION TEXT, "
+                    + "IMAGE_RESOURCE_ID INTEGER);");
+            insertDrink(db, "Latte", "Espresso and steamed milk", R.drawable.latte);
+            insertDrink(db, "Cappuccino", "Espresso, hot milk and steamed-milk foam",
+                    R.drawable.cappuccino);
+            insertDrink(db, "Filter", "Our best drip coffee", R.drawable.filter);
+        }
+        // called when onUpgraded
+        if (oldVersion < 2) {
+            //Code to add the extra column
         }
     }
 }
