@@ -34,6 +34,27 @@ public class DrinkActivity extends Activity {
                     new String[]{Integer.toString(drinkNo)},
                     null, null, null);
             //Code to do something with the cursor
+            //Move to the first record in the Cursor
+            if (cursor.moveToFirst()) {
+                //Get the drink details from the cursor
+                String nameText = cursor.getString(0);
+                String descriptionText = cursor.getString(1);
+                int photoId = cursor.getInt(2);
+                //Populate the drink name
+                TextView name = (TextView) findViewById(R.id.name);
+                name.setText(nameText);
+
+                //Populate the drink description
+                TextView description = (TextView) findViewById(R.id.description);
+                description.setText(descriptionText);
+
+                //Populate the drink image
+                ImageView photo = (ImageView) findViewById(R.id.photo);
+                photo.setImageResource(photoId);
+                photo.setContentDescription(nameText);
+            }
+            cursor.close();
+            db.close();
         } catch (SQLiteException e) {
             Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
