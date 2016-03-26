@@ -54,6 +54,12 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        if (oldVersion == 1) {
+            //Code to run if the database version is 1
+        }
+        if (oldVersion < 3) {
+            //Code to run if the database version is 1 or 2 }
 
+        }
     }
 }
