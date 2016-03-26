@@ -21,7 +21,6 @@ public class DrinkCategoryActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // TODO: 3/26/16  change this code so that it use data from database
         ListView listDrinks = getListView();
 //        ArrayAdapter<Drink> listAdapter = new ArrayAdapter<Drink>(this,
 //                                                                  android.R.layout.simple_list_item_1,
@@ -57,5 +56,13 @@ public class DrinkCategoryActivity extends ListActivity {
         Intent intent = new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
         intent.putExtra(DrinkActivity.EXTRA_DRINKNO, (int) id);
         startActivity(intent);
+    }
+
+    // when dont use app, close cursor and database
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        cursor.close();
+        db.close();
     }
 }
