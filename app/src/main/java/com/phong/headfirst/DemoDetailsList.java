@@ -57,7 +57,7 @@ public final class DemoDetailsList {
     public static final DemoDetails[] DEMOS = {
             new DemoDetails(R.string.hf_3_label, R.string.hf_3_description, HF_2.class),
             new DemoDetails(R.string.hf_4_label, R.string.hf_4_description, HF_4.class),
-            new DemoDetails(R.string.hf_5_label, R.string.hf_5_description, HF_5.class),
+            new DemoDetails( R.string.hf_5_label, R.string.hf_5_description, HF_5.class),
             new DemoDetails(R.string.hf_6_label, R.string.hf_6_description, TopLevelActivity.class),
             new DemoDetails(R.string.hf_7_label, R.string.hf_7_description, Main2Activity.class),
             new DemoDetails(R.string.hf_8_label, R.string.hf_8_description, Main3Activity.class),
