@@ -179,6 +179,7 @@
     <string name="hf_11_label">Head first chương 11</string>
     <string name="hf_11_description">Tạo database sql</string>
     <string name="favorite">Favorite</string>
+    <string name="favorites">Your favorite drinks:</string>
 
     <string-array name="sports_array">
         <item>Shuttle Badminton</item>
