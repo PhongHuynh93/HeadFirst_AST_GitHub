@@ -1,6 +1,7 @@
 package com.phong.headfirst.HF11;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -82,6 +83,22 @@ public class DrinkActivity extends Activity {
 //        description.setText(drink.getDescription());
     }
 
+    // when clicked, update the database
     public void onFavoriteClicked(View view) {
+        int drinkNo = (Integer) getIntent().getExtras().get("drinkNo");
+        CheckBox favorite = (CheckBox) findViewById(R.id.favorite);
+        ContentValues drinkValues = new ContentValues();
+        drinkValues.put("FAVORITE", favorite.isChecked());
+        SQLiteOpenHelper starbuzzDatabaseHelper =
+                new StarbuzzDatabaseHelper(DrinkActivity.this);
+        try {
+            SQLiteDatabase db = starbuzzDatabaseHelper.getWritableDatabase();
+            db.update("DRINK", drinkValues,
+                    "_id = ?", new String[]{Integer.toString(drinkNo)});
+            db.close();
+        } catch (SQLiteException e) {
+            Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
+            toast.show();
+        }
     }
 }
