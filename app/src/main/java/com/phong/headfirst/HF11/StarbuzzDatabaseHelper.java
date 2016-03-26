@@ -15,7 +15,7 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
 
     private static final String DB_NAME = "Head_first_11";
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 2;
 
     public StarbuzzDatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -63,6 +63,7 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
         // called when onUpgraded
         if (oldVersion < 2) {
             //Code to add the extra column
+            db.execSQL("ALTER TABLE DRINK ADD COLUMN FAVORITE NUMERIC;");
         }
     }
 }
