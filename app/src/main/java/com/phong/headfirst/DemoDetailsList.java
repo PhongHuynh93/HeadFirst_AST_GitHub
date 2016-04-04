@@ -63,6 +63,7 @@ public final class DemoDetailsList {
             new DemoDetails(R.string.hf_8_label, R.string.hf_8_description, Main3Activity.class),
             new DemoDetails(R.string.hf_9_label, R.string.hf_9_description, Action_Bar.class),
             new DemoDetails(R.string.hf_11_label, R.string.hf_11_description, com.phong.headfirst.HF11.TopLevelActivity.class),
+            new DemoDetails(R.string.hf_13_label, R.string.hf_13_description, com.phong.headfirst.HF13.Main13Activity.class),
             new DemoDetails(R.string.AST0_label, R.string.AST0_description, Bg_imagebutton.class),
             new DemoDetails(R.string.AST2_label, R.string.AST2_description, LinearLayout_Userinput_Toasts.class),
             new DemoDetails(R.string.AST3_label, R.string.AST3_description, ListView_ListAdapter_test.class),

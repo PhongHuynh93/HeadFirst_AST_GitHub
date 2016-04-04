@@ -8,6 +8,9 @@ import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Handler;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.phong.headfirst.MainActivity;
 import com.phong.headfirst.R;
@@ -18,19 +21,22 @@ import com.phong.headfirst.R;
 public class DelayedMessageService extends IntentService {
 
     public static final String EXTRA_MESSAGE = "message";
-    // private Handler handler; // Used in Toast version
+    private Handler handler; // Used in Toast version
     public static final int NOTIFICATION_ID = 5453;
 
     public DelayedMessageService() {
         super("DelayedMessageService");
     }
 
-    // @Override // Used in Toast version
-    // public int onStartCommand(Intent intent, int flags, int startId) {
-    //     handler = new Handler();
-    //     return super.onStartCommand(intent, flags, startId);
-    // }
+    // run first on main thread , call handler to post UI on main thread
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        handler = new Handler();
+        return super.onStartCommand(intent, flags, startId);
 
+    }
+
+    // method run when activity call intent, run in background
     @Override
     protected void onHandleIntent(Intent intent) {
         synchronized (this) {
@@ -45,30 +51,33 @@ public class DelayedMessageService extends IntentService {
     }
 
     private void showText(final String text) {
-        // Log.v("DelayedMessageService", "The message is: " + text); // Used in log version
-        // handler.post(new Runnable() { // Used in Toast version
-        //         @Override
-        //         public void run() {
-        //             Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG).show();
-        //         }
-        //     });
-        Intent intent = new Intent(this, MainActivity.class);
-        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
-        stackBuilder.addParentStack(MainActivity.class);
-        stackBuilder.addNextIntent(intent);
-        PendingIntent pendingIntent =
-                stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
-        Notification notification = new Notification.Builder(this)
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle(getString(R.string.app_name))
-                .setAutoCancel(true)
-                .setPriority(Notification.PRIORITY_MAX)
-                .setDefaults(Notification.DEFAULT_VIBRATE)
-                .setContentIntent(pendingIntent)
-                .setContentText(text)
-                .build();
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.notify(NOTIFICATION_ID, notification);
+//         Log.v("DelayedMessageService", "The message is: " + text); // Used in log version
+
+         handler.post(new Runnable() { // Used in Toast version
+                 @Override
+                 public void run() {
+                     Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG).show();
+                 }
+             });
+
+//
+//        Intent intent = new Intent(this, MainActivity.class);
+//        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+//        stackBuilder.addParentStack(MainActivity.class);
+//        stackBuilder.addNextIntent(intent);
+//        PendingIntent pendingIntent =
+//                stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
+//        Notification notification = new Notification.Builder(this)
+//                .setSmallIcon(R.mipmap.ic_launcher)
+//                .setContentTitle(getString(R.string.app_name))
+//                .setAutoCancel(true)
+//                .setPriority(Notification.PRIORITY_MAX)
+//                .setDefaults(Notification.DEFAULT_VIBRATE)
+//                .setContentIntent(pendingIntent)
+//                .setContentText(text)
+//                .build();
+//        NotificationManager notificationManager =
+//                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+//        notificationManager.notify(NOTIFICATION_ID, notification);
     }
 }

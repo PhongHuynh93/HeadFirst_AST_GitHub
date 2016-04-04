@@ -181,6 +181,8 @@
     <string name="favorite">Favorite</string>
     <string name="favorites">Your favorite drinks:</string>
     <string name="button_response">Timing</string>
+    <string name="hf_13_label">Head first chuong 13</string>
+    <string name="hf_13_description">Service</string>
 
     <string-array name="sports_array">
         <item>Shuttle Badminton</item>
