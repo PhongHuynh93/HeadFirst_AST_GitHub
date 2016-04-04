@@ -180,6 +180,7 @@
     <string name="hf_11_description">Tạo database sql</string>
     <string name="favorite">Favorite</string>
     <string name="favorites">Your favorite drinks:</string>
+    <string name="button_response">Timing</string>
 
     <string-array name="sports_array">
         <item>Shuttle Badminton</item>
